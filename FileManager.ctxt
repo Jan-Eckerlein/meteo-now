@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FileManager
+comment1.params=adresseVonFile
+comment1.target=java.util.ArrayList\ leseCSVDateiScanner(java.lang.String)
+numComments=2

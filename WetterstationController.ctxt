@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=WetterstationController
+comment1.params=
+comment1.target=Wetterstation\ getWetterStation()
+comment2.params=
+comment2.target=WetterstationController()
+comment3.params=adresseVonFile
+comment3.target=void\ importCSVFile(java.lang.String)
+numComments=4

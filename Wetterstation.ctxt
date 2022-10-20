@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Wetterstation
+comment1.params=messpunkte
+comment1.target=void\ setMesspunkte(java.util.ArrayList)
+comment2.params=
+comment2.target=java.util.ArrayList\ getMesspunkte()
+comment3.params=messpunkt
+comment3.target=void\ addMesspunkt(Messpunkt)
+numComments=4

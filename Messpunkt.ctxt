@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Messpunkt
+comment1.params=temperatur
+comment1.target=Messpunkt(int)
+comment2.params=idMesspunkt
+comment2.target=void\ setIdMesspunkt(int)
+comment3.params=
+comment3.target=int\ getIdMesspunkt()
+comment4.params=
+comment4.target=int\ getTemperatur()
+comment5.params=temperatur
+comment5.target=void\ setTemperatur(int)
+numComments=6
