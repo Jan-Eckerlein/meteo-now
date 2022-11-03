@@ -16,7 +16,7 @@ public class WetterstationController
         
           System.out.println("Das Programm wird mit Test-Werten befüllt!");
           wetterStation = new Wetterstation();
-          importCSVFile("Wetterdatenbeispiel.csv");   
+          importCSVFile("WetterdatenWetterStation.txt");   
           
     }
     //"Wetterdatenbeispiel.csv"
@@ -25,6 +25,7 @@ public class WetterstationController
           wetterStation.getMesspunkte().addAll(FileManager.leseCSVDateiScanner(adresseVonFile));
         
     }
+    
     
     
 }

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Messpunkt
-comment1.params=temperatur
-comment1.target=Messpunkt(int)
+comment1.params=temperatur\ luftfeuchtigkeit\ datum
+comment1.target=Messpunkt(int,\ double,\ java.util.GregorianCalendar)
 comment2.params=idMesspunkt
 comment2.target=void\ setIdMesspunkt(int)
 comment3.params=
@@ -10,4 +10,12 @@ comment4.params=
 comment4.target=int\ getTemperatur()
 comment5.params=temperatur
 comment5.target=void\ setTemperatur(int)
-numComments=6
+comment6.params=luftfeutchtigkeit
+comment6.target=void\ setLuftfeuchtigkeit(double)
+comment7.params=
+comment7.target=double\ getLuftfeuchtigkeit()
+comment8.params=datum
+comment8.target=void\ setDatum(java.util.GregorianCalendar)
+comment9.params=
+comment9.target=java.util.GregorianCalendar\ getDatum()
+numComments=10

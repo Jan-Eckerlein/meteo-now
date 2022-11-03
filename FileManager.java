@@ -17,14 +17,18 @@ public class FileManager{
         String line;
         String [] messdaten;
         int temperatur;
+        double luftfeuchtigKeit;
+        GregorianCalendar datum;
         Date zeit=null;
         Messpunkt messpunkt;
         while ( scanner.hasNextLine() ){
             line =  scanner.nextLine();
-            messdaten = line.split("\\,");
+            messdaten = line.split("\\;");
             temperatur= new Integer (messdaten[0]);
-            
-            messpunkt = new Messpunkt(temperatur);
+            luftfeuchtigKeit = new Double (messdaten[1]);
+            String strDatum = new String (messdaten[2]);
+            datum = Parser.parseStringToCalendarMinute(strDatum);
+            messpunkt = new Messpunkt(temperatur,luftfeuchtigKeit,datum);
             messpunkte.add(messpunkt);
             
         }
