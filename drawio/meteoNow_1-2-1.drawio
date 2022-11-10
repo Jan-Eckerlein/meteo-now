@@ -1,48 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T07:36:49.080Z" agent="5.0 (Windows)" etag="16o4iu0H2HddyKBvgXdR" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-10T07:51:00.012Z" agent="5.0 (Windows)" etag="d5kazM_CQNmkhQyw_x2n" version="20.5.1" type="github">
   <diagram id="2ohZ-JlfehKxRjx7R69Y" name="Page-1">
     <mxGraphModel dx="1374" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Kr5z9KKYAfnh3Ok926YY-1" value="Wetterstation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="85" y="70" width="265" height="46" as="geometry" />
+          <mxGeometry x="15" y="150" width="440" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-2" value="+&amp;nbsp;&amp;nbsp;addMesspunkt(Messpunkt messpunkt) : void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Kr5z9KKYAfnh3Ok926YY-1" vertex="1">
-          <mxGeometry y="26" width="265" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-3" value="" style="endArrow=open;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="Kr5z9KKYAfnh3Ok926YY-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="83" as="sourcePoint" />
-            <mxPoint x="595" y="83" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="365" y="93" />
-              <mxPoint x="365" y="83" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-4" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="Kr5z9KKYAfnh3Ok926YY-3" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="10" y="8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-5" value="0...M" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="Kr5z9KKYAfnh3Ok926YY-3" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry">
-            <mxPoint x="-20" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-6" value="erfasst" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Kr5z9KKYAfnh3Ok926YY-3" vertex="1" connectable="0">
-          <mxGeometry x="-0.0797" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="Kr5z9KKYAfnh3Ok926YY-2" value="&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot; align=&quot;left&quot;&gt;+ addMesspunkt(Messpunkt messpunkt) : void&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot;&gt;+ sortieren(ArrayList Messpunkt messpunkt): ArrayList Messpunkt messpunkt&lt;/div&gt;+ maximum(ArrayList Messpunkt messpunkt): int&lt;/div&gt;&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot; align=&quot;left&quot;&gt;&lt;br style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Kr5z9KKYAfnh3Ok926YY-1" vertex="1">
+          <mxGeometry y="26" width="440" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Kr5z9KKYAfnh3Ok926YY-7" value="WetterstationController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="85" y="184" width="270" height="80" as="geometry" />
+          <mxGeometry x="100" y="340" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-8" value="&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot;&gt;+&amp;nbsp;importCSVFile(String adresseVonFile): void&lt;/div&gt;&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot; align=&quot;left&quot;&gt;+ sortieren(ArrayList eintraege): void&lt;/div&gt;&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot; align=&quot;left&quot;&gt;+ maximum(ArrayList eintraege): int&lt;br style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Kr5z9KKYAfnh3Ok926YY-7" vertex="1">
-          <mxGeometry y="20" width="270" height="60" as="geometry" />
+        <mxCell id="Kr5z9KKYAfnh3Ok926YY-8" value="&lt;div style=&quot;--original-color: rgb(0, 0, 0); --original-background-color: rgba(0, 0, 0, 0);&quot;&gt;+&amp;nbsp;importCSVFile(String adresseVonFile): void&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Kr5z9KKYAfnh3Ok926YY-7" vertex="1">
+          <mxGeometry y="20" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kr5z9KKYAfnh3Ok926YY-9" value="FileManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry y="314" width="440" height="46" as="geometry" />
+          <mxGeometry x="15" y="480" width="440" height="46" as="geometry" />
         </mxCell>
         <mxCell id="Kr5z9KKYAfnh3Ok926YY-10" value="&lt;u&gt;&amp;nbsp;+ leseCSVDateiScanner(String adresseVonFile ) : ArrayList&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Kr5z9KKYAfnh3Ok926YY-9" vertex="1">
           <mxGeometry y="26" width="440" height="20" as="geometry" />
@@ -64,11 +39,31 @@
             <mxPoint x="5" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kr5z9KKYAfnh3Ok926YY-14" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="355" y="70" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Kr5z9KKYAfnh3Ok926YY-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Messpunkt&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- temperatur: int&lt;br&gt;- messdatum: &lt;font color=&quot;#ff8000&quot;&gt;GregorianCalendar&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- luftfeuchtigkeit: &lt;font color=&quot;#ff8000&quot;&gt;double&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="595" y="70" width="200" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="F_9stmqTEgurQ7FW_5Gi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Kr5z9KKYAfnh3Ok926YY-14" target="Kr5z9KKYAfnh3Ok926YY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr5z9KKYAfnh3Ok926YY-14" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="310" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_9stmqTEgurQ7FW_5Gi-2" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="Kr5z9KKYAfnh3Ok926YY-1" target="Kr5z9KKYAfnh3Ok926YY-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="150" as="sourcePoint" />
+            <mxPoint x="595" y="83" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_9stmqTEgurQ7FW_5Gi-3" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="F_9stmqTEgurQ7FW_5Gi-2">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F_9stmqTEgurQ7FW_5Gi-5" value="erfasst" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F_9stmqTEgurQ7FW_5Gi-2">
+          <mxGeometry x="-0.0797" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
